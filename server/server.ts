@@ -15,4 +15,4 @@ app.use('/login', (req: any, res: any) => {
   res.send({token: 'test123'});
 });
 
-app.listen(8080, () => console.log('API is running on http://192.168.0.139:8080/login'));
+app.listen(8080, () => console.log('API is running on http://localhost/login'));
